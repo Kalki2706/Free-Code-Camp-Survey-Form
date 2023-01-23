@@ -1,0 +1,156 @@
+html {
+  background: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg")
+    no-repeat center center fixed;
+}
+
+#form {
+  max-width: 500px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: auto;
+  background-color: rgb(26, 20, 56);
+  opacity: 0.8;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+#title {
+  font-size: 40px;
+  font-family: "Lucida Sans", sans-serif;
+  text-align: center;
+  color: rgb(6, 191, 95);
+  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: sans-serif, "Lucida Sans";
+  text-align: center;
+  color: rgb(207, 214, 81);
+  font-style: italic;
+}
+
+#name {
+  width: 100%;
+  height: 4vh;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+#name-label {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+#email {
+  display: block;
+  width: 100%;
+  height: 4vh;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+#email-label {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+#number {
+  display: block;
+  width: 100%;
+  height: 4vh;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+#number-label {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+#radio-para {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+
+.radio-label {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 23px;
+}
+
+#select-para {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#dropdown {
+  width: 100%;
+  height: 2rem;
+  font-size: 18px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+#checkbox-para {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#textarea-para {
+  margin-bottom: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-top: 1px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+}
+
+#submit {
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: rgb(50, 190, 90);
+  color: rgb(255, 255, 255);
+  border-color: rgb(50, 190, 90);
+  border: none;
+}
