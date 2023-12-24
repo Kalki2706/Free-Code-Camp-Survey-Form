@@ -1,6 +1,6 @@
 html {
-  background: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg")
-    no-repeat center center fixed;
+  background: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg')
+    center/cover no-repeat fixed;
 }
 
 #form {
@@ -20,7 +20,7 @@ html {
 
 #title {
   font-size: 40px;
-  font-family: "Lucida Sans", sans-serif;
+  font-family: 'Lucida Sans', sans-serif;
   text-align: center;
   color: rgb(6, 191, 95);
   margin-top: 50px;
@@ -35,7 +35,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  font-family: sans-serif, "Lucida Sans";
+  font-family: sans-serif, 'Lucida Sans';
   text-align: center;
   color: rgb(207, 214, 81);
   font-style: italic;
